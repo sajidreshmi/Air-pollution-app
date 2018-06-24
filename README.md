@@ -1,6 +1,45 @@
-Follow this tutorial:
-https://medium.com/@apuravchauhan/part-1-simple-ionic-tutorial-from-scratch-from-0-to-live-app-9a79db510a90
+# Air pollution app
+This is an Ionic 3 application built on Angular
 
-1. npm install -g cordova ionic
-2. Do npm install in this directory to begin
-3. ionic serve 
+
+### Version
+1.0.0
+
+## Usage
+
+
+### Installation
+
+Install the dependencies
+
+```sh
+$ npm install
+```
+
+### Serve
+To serve in the browser
+
+```sh
+$ ionic serve
+```
+
+### To Add Platforms
+```sh
+$ cordova platform add android
+$ cordova platform add ios
+```
+
+### Run Platforms
+To run in avd
+
+```sh
+$ ionic run android
+$ ionic run ios
+```
+
+### Build Android APK File
+To build APK file to output folder
+
+```sh
+$ ionic build android
+```
